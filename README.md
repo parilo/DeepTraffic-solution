@@ -28,8 +28,7 @@ If it is 1 it will consider situations that may happen in the deepest future. Yo
 
 With this parameters I get 75.04. But there is random in submission. So the same submission may vary about 0.5 mph. So try multiple times.
 
-It drives pretty well but I spotted one bad situation when car is blocked by surrounding cars. It sometimes good to use break to live such conditions, change line and pass. But instead car waits. To handle this I decided to train second model and use first for pretraining. I edit downloaded file, and increase batch size and decrease learning rate. It allows me to get 75.28. I had even bigger values on evaluation run.
-My solution github link will be in description.
+It drives pretty well but I spotted one bad situation when car is blocked by surrounding cars. It sometimes good to use break to live such conditions, change line and pass. But instead car waits. To handle this I decided to train second model and use first for pretraining. I edit downloaded file, increase batch size and decrease learning rate. It allows me to get 75.28. I had even bigger values on evaluation run.
 
 So. There is veeeery simple explanation of using DQN and reinforcement learning. If you interested I advice to watch Google DeepMind David Silver [marvelous course](https://www.youtube.com/watch?v=2pWv7GOvuf0) on youtube. It is very clear and interesting.
 
